@@ -7,7 +7,7 @@ using System.Web;
 
 namespace Utilities
 {
-    public class ConvertToTitleCase
+    public static class Formatting
     {
         /// <summary>
         /// Takes a string input and converts it to TitleCase. Extension method of string class
