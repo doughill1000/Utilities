@@ -73,7 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConvertToTitleCase.cs" />
-    <Compile Include="GetJsonObjectFromURL.cs" />
+    <Compile Include="JSON.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>
