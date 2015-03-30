@@ -73,8 +73,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Formatting.cs" />
+    <Compile Include="Interface\Example.cs" />
+    <Compile Include="Interface\IExample.cs" />
     <Compile Include="JSON.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositoryFactory\Main.cs" />
+    <Compile Include="RepositoryFactory\Repositories\IExampleRepository.cs" />
+    <Compile Include="RepositoryFactory\Repositories\ServiceRepository.cs" />
+    <Compile Include="RepositoryFactory\Repositories\SqlRepository.cs" />
+    <Compile Include="RepositoryFactory\RepositoryFactory.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
