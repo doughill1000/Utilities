@@ -2,7 +2,7 @@
 
 namespace Utilities.RepositoryFactory
 {
-    public class Main
+    public class MainMethod
     {
         static void Main(string[] args)
         {

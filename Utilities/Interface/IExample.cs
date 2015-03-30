@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Utilities.Interface
 {
-    interface IExample
+    public interface IExample
     {
-        public void Method()
-        {
-
-        }
+        void Method();
     }
 }
