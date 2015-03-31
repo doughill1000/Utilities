@@ -63,6 +63,7 @@
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -72,6 +73,11 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dynamic\DynamicXml.cs" />
+    <Compile Include="Dynamic\DynamicXMLMain.cs" />
+    <Compile Include="Expando\Expando.cs" />
+    <Compile Include="Expando\ExpandoXml.cs" />
+    <Compile Include="Expando\XML.cs" />
     <Compile Include="Formatting.cs" />
     <Compile Include="Interface\Example.cs" />
     <Compile Include="Interface\IExample.cs" />
@@ -82,6 +88,9 @@
     <Compile Include="RepositoryFactory\Repositories\ServiceRepository.cs" />
     <Compile Include="RepositoryFactory\Repositories\SqlRepository.cs" />
     <Compile Include="RepositoryFactory\RepositoryFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DependencyInjection\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
